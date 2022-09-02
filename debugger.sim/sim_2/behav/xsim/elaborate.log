@@ -1,0 +1,32 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.main_state_machine [main_state_machine_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_clk16 [uart_clk16_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_RxClk [uart_rxclk_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_TxClk [uart_txclk_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_baudgen [uart_baudgen_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_Tx_cu [uart_tx_cu_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_piso_reg [uart_piso_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_Tx [uart_tx_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_rx_cu [uart_rx_cu_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_sipo_reg [uart_sipo_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_Rx [uart_rx_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_top [uart_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.input_decode [input_decode_default]
+Compiling architecture behavioral of entity xil_defaultlib.read_registers [read_registers_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_debugger [top_debugger_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav

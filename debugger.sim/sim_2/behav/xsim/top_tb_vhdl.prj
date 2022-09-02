@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../debugger.srcs/sources_1/new/input_decode.vhd" \
+"../../../../debugger.srcs/sources_1/new/main_state_machine.vhd" \
+"../../../../debugger.srcs/sources_1/new/read_registers_write.vhd" \
+"../../../../debugger.srcs/sources_1/new/top_debugger.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_Rx.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_RxClk.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_Tx.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_TxClk.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_Tx_cu.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_baudgen.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_clk16.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_piso_reg.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_rx_cu.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_sipo_reg.vhd" \
+"../../../../debugger.srcs/sources_1/new/uart/uart_top.vhd" \
+"../../../../debugger.srcs/sim_2/new/top_tb.vhd" \
+
+# Do not sort compile order
+nosort
