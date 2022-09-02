@@ -1,0 +1,78 @@
+
+*** Running vivado
+    with args -log top_debugger.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top_debugger.tcl -notrace
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source top_debugger.tcl -notrace
+Command: link_design -top top_debugger -part xc7a50tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a50tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1261.250 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 127 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1261.250 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1261.250 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a50t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[0] has multiple drivers: msm/command_integer_reg[0]__0/Q, and msm/command_integer_reg[0]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[10] has multiple drivers: msm/command_integer_reg[10]__0/Q, and msm/command_integer_reg[10]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[11] has multiple drivers: msm/command_integer_reg[11]__0/Q, and msm/command_integer_reg[11]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[12] has multiple drivers: msm/command_integer_reg[12]/Q, and msm/command_integer_reg[12]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[13] has multiple drivers: msm/command_integer_reg[13]/Q, and msm/command_integer_reg[13]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[14] has multiple drivers: msm/command_integer_reg[14]__0/Q, and msm/command_integer_reg[14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[15] has multiple drivers: msm/command_integer_reg[15]/Q, and msm/command_integer_reg[15]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[16] has multiple drivers: msm/command_integer_reg[16]/Q, and msm/command_integer_reg[16]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[17] has multiple drivers: msm/command_integer_reg[17]/Q, and msm/command_integer_reg[17]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[18] has multiple drivers: msm/command_integer_reg[18]__0/Q, and msm/command_integer_reg[18]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[19] has multiple drivers: msm/command_integer_reg[19]/Q, and msm/command_integer_reg[19]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[1] has multiple drivers: msm/command_integer_reg[1]/Q, and msm/command_integer_reg[1]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[20] has multiple drivers: msm/command_integer_reg[20]__0/Q, and msm/command_integer_reg[20]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[21] has multiple drivers: msm/command_integer_reg[21]__0/Q, and msm/command_integer_reg[21]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[22] has multiple drivers: msm/command_integer_reg[22]__0/Q, and msm/command_integer_reg[22]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[23] has multiple drivers: msm/command_integer_reg[23]/Q, and msm/command_integer_reg[23]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[24] has multiple drivers: msm/command_integer_reg[24]/Q, and msm/command_integer_reg[24]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[25] has multiple drivers: msm/command_integer_reg[25]/Q, and msm/command_integer_reg[25]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[26] has multiple drivers: msm/command_integer_reg[26]/Q, and msm/command_integer_reg[26]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[27] has multiple drivers: msm/command_integer_reg[27]__0/Q, and msm/command_integer_reg[27]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[28] has multiple drivers: msm/command_integer_reg[28]/Q, and msm/command_integer_reg[28]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[29] has multiple drivers: msm/command_integer_reg[29]__0/Q, and msm/command_integer_reg[29]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[2] has multiple drivers: msm/command_integer_reg[2]/Q, and msm/command_integer_reg[2]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[30] has multiple drivers: msm/command_integer_reg[30]/Q, and msm/command_integer_reg[30]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[31] has multiple drivers: msm/command_integer_reg[31]__0/Q, and msm/command_integer_reg[31]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[3] has multiple drivers: msm/command_integer_reg[3]/Q, and msm/command_integer_reg[3]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[4] has multiple drivers: msm/command_integer_reg[4]/Q, and msm/command_integer_reg[4]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[5] has multiple drivers: msm/command_integer_reg[5]/Q, and msm/command_integer_reg[5]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[6] has multiple drivers: msm/command_integer_reg[6]/Q, and msm/command_integer_reg[6]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[7] has multiple drivers: msm/command_integer_reg[7]/Q, and msm/command_integer_reg[7]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[8] has multiple drivers: msm/command_integer_reg[8]__0/Q, and msm/command_integer_reg[8]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net msm/command_integer[9] has multiple drivers: msm/command_integer_reg[9]/Q, and msm/command_integer_reg[9]__0/Q.
+INFO: [Project 1-461] DRC finished with 32 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1261.250 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+11 Infos, 0 Warnings, 0 Critical Warnings and 33 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 22 20:14:10 2022...
